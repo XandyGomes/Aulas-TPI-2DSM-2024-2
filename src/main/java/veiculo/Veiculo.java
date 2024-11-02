@@ -17,7 +17,7 @@ public abstract class Veiculo implements IVeiculo {
     private Double valor;
     
     public static Double calcularValorVenda(Veiculo valor){
-        return valor.getValor() - (valor.getAno() * 0.10);
+        return valor.getValor() - (valor.getValor() * 0.10);
     }
     
 
@@ -68,7 +68,7 @@ public abstract class Veiculo implements IVeiculo {
 
     @Override
     public void desligar(){
-        System.out.println("Ligado");
+        System.out.println("Desligado");
     }
 
     
