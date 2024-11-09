@@ -1,6 +1,8 @@
+package correcaoDaprova1b;
 
-import correcaodaprova1b.CalculadoraIPI;
-import correcaodaprova1b.DadosCompra;
+
+import correcaoDaprova1b.CalculadoraIPI;
+import correcaoDaprova1b.DadosCompra;
 import java.util.Scanner;
 
 /*
